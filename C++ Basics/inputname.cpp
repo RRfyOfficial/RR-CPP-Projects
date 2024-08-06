@@ -18,7 +18,7 @@ int main()
 
     cout<<"May I know your name? ";
     
-    getline(cin, fullStr);
+    getline(cin, fullStr); //you'll need #include <string> to use this command
 
     cout<<"Sup "<<fullStr; */
 
