@@ -20,5 +20,21 @@ int main()
     float Price = 12.75f; //you need to write "f" for float values, or it will think it's double
     cout<<Price<<endl;
 
+
+    int a, b;
+
+    a = 13;
+    b = 5;
+
+    int c = a/b;
+    cout<<c<<endl;
+
+    double d = a/b;
+    cout<<d<<endl;
+
+    d = (double) a/b; //type casting is necessary in C++
+    cout<<d<<endl;
+
+
     return 0;
 }
